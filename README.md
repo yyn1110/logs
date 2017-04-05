@@ -41,7 +41,7 @@ Use it like this:
 Configure file adapter like this:
 
 	log := NewLogger(10000)
-	log.SetLogger("file", `{"filename":"test.log"}`)
+	log.SetLogger("file", `{"filename":"test.log","perm": "0666"}`)
 
 
 ## Conn adapter
